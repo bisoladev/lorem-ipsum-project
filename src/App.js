@@ -6,6 +6,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setText(data);
   };
 
   return (
@@ -25,10 +26,7 @@ function App() {
         </button>
       </form>
       <article className="lorem-text">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, odit!
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, odit!
-        </p>
+        {}
       </article>
     </section>
   );
